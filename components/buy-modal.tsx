@@ -37,7 +37,7 @@ export function BuyModal({ isOpen, onClose, lang }: BuyModalProps) {
       `Hi, I want to buy ${amount} USDT.\n\nMy USDT address: ${address}\nNetwork: ${network}\nTotal: ${totalILS} ILS`
     );
     
-    window.open(`https://wa.me/972533002032?text=${message}`, '_blank');
+    window.open(`https://wa.me/972547836509?text=${message}`, '_blank');
     onClose();
   };
 
